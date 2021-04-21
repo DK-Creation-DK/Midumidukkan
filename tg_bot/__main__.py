@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/Movie_zoon".),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Moviezoon12")],
+                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/Movie_zoon"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Moviezoon12")],
 
                      [InlineKeyboardButton(text="SUPPORT CONTACT", url="https://t.me/cybersecurityhackerjinn") ]]))
 
