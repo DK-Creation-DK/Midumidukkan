@@ -20,7 +20,7 @@ To deploy me on heroku, use below :
 
 [![Viruzhex](https://img.shields.io/badge/Viruzhex-Support-red?style=flat&logo=telegram)](https://telegram.dog/Viruzhex)
 
-[![My-Owner](https://img.shields.io/badge/owner-red?style=flat&logo=telegraph)](https://t.me/DK369DK)
+[![My](https://img.shields.io/badge/owner-red?style=flat&logo=telegraph)](https://t.me/DK369DK)
 
 There is also a [tutorial video](https://youtu.be/W6CLKrehy6w) if you want any help on creating heroku clone.
 
