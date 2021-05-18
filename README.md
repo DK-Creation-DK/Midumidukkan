@@ -19,7 +19,7 @@ To deploy me on heroku, use below :
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jithumon/tgbot)
 
 [![Viruzhex](https://img.shields.io/badge/Viruzhex-Support-red?style=flat&logo=telegram)](https://telegram.dog/Viruzhex)
-
+[![My Creater](https://img.shields.io/badge/My-Creater-green?style=flat&logo=telegraph)](https://telegraph.dog/DK369DK)
 There is also a [tutorial video](https://youtu.be/W6CLKrehy6w) if you want any help on creating heroku clone.
 
 ## Starting the bot.
