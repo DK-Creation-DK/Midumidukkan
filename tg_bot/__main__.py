@@ -20,11 +20,14 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 Hai {} My name is {}!
-Iam powerful group management bot! 
+Iam powerful group management bot!
 
-Maintained by this [person](tg://user?id={}) 
+ Maintained by  this [person](tg://user?id={}) 
 
 For more commands click /help...
+
+
+
 
 
 
@@ -149,9 +152,10 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🛡Supported Group🛡", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="🛡Supported Channel🛡", url="https://t.me/Viruzhex_bots")],
-                     [InlineKeyboardButton(text="Youtube Channel", url="https://youtube.com/channel/UC9CADKE_PnqPgAxc1yJ4R_g")]
-  
+                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Viruzhex_bots")]
+,                   [InlineKeyboardButton(text="SUPPORT", url="https://t.me/Dk369DK") ]]))
+
+                  
     else:
         update.effective_message.reply_text("Iam here")
 
