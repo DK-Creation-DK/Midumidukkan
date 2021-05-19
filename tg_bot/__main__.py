@@ -19,8 +19,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ് പക്ഷെ വെറുതെ സമയം കളയണ്ട എന്നെ ™Viruzhex ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ
+Hai {} My name is {}!
+Iam powerful group management bot 
 
+ Maintained by  this [person](tg://user?id={}) 
+
+For more commands click /help...
 
 
 
@@ -148,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Viruzhex_bot")],
+                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Viruzhex_bots")],
 
                    
     else:
