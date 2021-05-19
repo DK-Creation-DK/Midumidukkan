@@ -19,10 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Hai, 
- I am a group manager bot made for managing groups... As usual I am now with less updates. But soon more updates will come soon... My updates would be added on the channel given below. My new updates will be posted there. 
-Also Join my [Support group](https://t.me/Viruzhex)  for asking doubts abut me....If you want to know my modules just tap /help .You can make a admin bot like me ask @DK369DK for my repo
-
+ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ് പക്ഷെ വെറുതെ സമയം കളയണ്ട എന്നെ ™мм ғιℓм ғαcтσяy ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ
 
 
 
