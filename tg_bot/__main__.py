@@ -22,7 +22,7 @@ PM_START_TEXT = """
 Hai {} My name is {}!
 Iam powerful group management bot 
 
- Maintained by  this [person](tg://user?id={}) 
+ Maintained by this [person](tg://user?id={}) 
 
 For more commands click /help...
 
