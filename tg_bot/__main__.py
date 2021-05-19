@@ -153,7 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🛡Supported Group🛡", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="🛡Supported Channel🛡", url="https://t.me/Viruzhex_bots")],
-                    [InlineKeyboardButton(text="🛡Commands🛡", url="https://t.me/{}?start=help".format(bot.username) ]]))
+                    [InlineKeyboardButton(text="Youtube Channel", url="https://youtube.com/channel/UC9CADKE_PnqPgAxc1yJ4R_g".)]
   
     else:
         update.effective_message.reply_text("Iam here")
