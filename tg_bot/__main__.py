@@ -22,7 +22,7 @@ PM_START_TEXT = """
 Hai {} My name is {}!
 Iam powerful group management bot! 
 
- Maintained by this [person](tg://user?id={}) 
+Maintained by this [person](tg://user?id={}) 
 
 For more commands click /help...
 
@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🛡Supported Group🛡", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="🛡Supported Channel🛡", url="https://t.me/Viruzhex_bots")],
-                     [InlineKeyboardButton(text="Youtube Channel", url="https://youtube.com/channel/UC9CADKE_PnqPgAxc1yJ4R_g".)]]
+                     [InlineKeyboardButton(text="Youtube Channel", url="https://youtube.com/channel/UC9CADKE_PnqPgAxc1yJ4R_g")]
   
     else:
         update.effective_message.reply_text("Iam here")
