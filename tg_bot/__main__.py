@@ -19,8 +19,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ് പക്ഷെ വെറുതെ സമയം കളയണ്ട എന്നെ ™мм ғιℓм ғαcтσяʏ ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ
-
+Hai  {mention}, 
+ I am a group manager bot made for managing groups... As usual I am now with less updates. But soon more updates will come soon... My updates would be added on the channel given below. My new updates will be posted there. 
+Also Join my [Support group](https://t.me/Viruzhex)  for asking doubts abut me....If you want to know my modules just tap /help .You can make a admin bot like me ask @DK369DK for my repo
 
 
 
@@ -50,10 +51,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](https://t.me/cybersecurityhackerjinn) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](https://t.me/DK369DK) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](https://t.me/cybersecurityhackerjinn), or [Monzo](https://t.me/cybersecurityhackerjinn)."""
+There are two ways of paying him; [PayPal](https://t.me/DK369DK), or [Monzo](https://t.me/DK369DK)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
