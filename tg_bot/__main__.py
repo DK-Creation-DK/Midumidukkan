@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Hai {} My name is {}!
+Hai{} My name is {}!
 Iam powerful group management bot 
 
  Maintained by this [person](tg://user?id={}) 
@@ -153,6 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="GROUP", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Viruzhex_bots")],
+                    [InlineKeyboardButton(text="🛡Commands🛡", url="https://t.me/Viruzhex?start=help") ]]))
 
                    
     else:
