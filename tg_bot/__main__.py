@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Hai  {mention}, 
+Hai, 
  I am a group manager bot made for managing groups... As usual I am now with less updates. But soon more updates will come soon... My updates would be added on the channel given below. My new updates will be posted there. 
 Also Join my [Support group](https://t.me/Viruzhex)  for asking doubts abut me....If you want to know my modules just tap /help .You can make a admin bot like me ask @DK369DK for my repo
 
@@ -156,7 +156,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text="SUPPORT CONTACT", url="https://t.me/cybersecurityhackerjinn") ]]))
 
     else:
-        update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
+        update.effective_message.reply_text("Iam here")
 
 
 # for test purposes
