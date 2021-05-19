@@ -152,8 +152,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="GROUP", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Viruzhex_bots")],
-                    [InlineKeyboardButton(text="🛡Commands🛡", url="https://t.me/Viruzhex?start=help") ]]))
+                    [[InlineKeyboardButton(text="Supported Group", url="https://t.me/Viruzhex"),  InlineKeyboardButton(text="CHANNEL", url="https://t.me/Viruzhex_bots")],
+                    [InlineKeyboardButton(text="🛡Commands🛡", url="https://t.me/{}?start=help") ]]))
 
                    
     else:
