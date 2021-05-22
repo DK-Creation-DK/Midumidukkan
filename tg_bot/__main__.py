@@ -18,21 +18,10 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-
-Hai {} My name is {}!
-Iam powerful group management bot!
-
- Maintained by  this [person](tg://user?id={}) 
-
-For more commands click /help...
-
-
-
-
-
-
-
-
+ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
+നിങ്ങൾക്ക് മൂവീസ് ലഭിക്കാനായി താഴെ കൊടുത്തിരിക്കുന്ന ചാനലിലും ഗ്രൂപ്പിലും ജോയിൻ ചെയ്യുക.
+Contribute to [This person](https://t.me/cybersecurityhackerjinn). 
+Contribute and donate vps to [This person](https://t.me/Issacnewton4). 
 """
 
 HELP_STRINGS = """
@@ -52,10 +41,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](https://t.me/DK369DK) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](https://t.me/cybersecurityhackerjinn) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](https://t.me/DK369DK), or [Monzo](https://t.me/DK369DK)."""
+Thanks for your good mind for donation💕."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -113,7 +102,7 @@ for module_name in ALL_MODULES:
 def send_help(chat_id, text, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
-dispatcher.bot.send_message(chat_id=chat_id,
+    dispatcher.bot.send_message(chat_id=chat_id,
                                 text=text,
                                 parse_mode=ParseMode.MARKDOWN,
                                 reply_markup=keyboard)
@@ -152,8 +141,10 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                     [InlineKeyboardButton(text="🛡Support Group🛡", url="https://t.me/Viruzhex"), InlineKeyboardButton(text="🛡Support Channel🛡", url="https://t.me/movie_zoon12")],
-                     [InlineKeyboardButton(text="SUPPORT CONTACT", url="https://t.me/cybersecurityhackerjinn") ]]))
+                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="support Devoleper", url="https//t.me/cybersecurityhackerjinn")],
+                     [InlineKeyboardButton(text="Movie Group", url="https://t.me/CINEMAS_LOKAM8"), InlineKeyboardButton(text="Movie Channel", url="https://t.me/CL_All")],
+                     [InlineKeyboardButton(text="Movie Channel", url="https//t.me/CL_Links3"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
